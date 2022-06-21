@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+    padding: 0;
+    border: 0;
+    background-image: url(../images/urian.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: hidden;
+
+
+  }
+  
+
+  .container {
+    
+   
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 500px;
+    background-color: white;
+    margin-left: 29%;
+     border-top-left-radius: 20%; 
+     border-bottom-right-radius: 20%;
+   
+    opacity: 90%;
+    
+    
+    
+   
+  }
+
+
+
+  h2{
+    font-size: larger;
+    color: green;
+  }
+
+  h4{
+    flex-direction: column;
+  
+  }
