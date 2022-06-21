@@ -42,8 +42,12 @@ body {
     font-size: larger;
     color: green;
   }
-
-  h4{
-    flex-direction: column;
-  
+  ul{
+    display: flex;
+    flex-direction: row;
+    margin-right: 44px;
+  }
+  li{
+    list-style: none;
+    padding: 10px;
   }
